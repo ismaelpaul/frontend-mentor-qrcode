@@ -1,0 +1,47 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', 'Roboto', sans-serif;
+}
+/* BODY */
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height:100vh;
+    display:flex;   
+}
+
+/* CARD */
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.qr-code img {
+    padding: 1rem;
+
+}
+.card,
+.qr-code img {
+    max-width: 20rem;
+    border-radius: 1.5rem;
+}
+.content {
+    text-align: center;
+}
+.content h4 {
+    font-size: 23px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+.content p {
+    padding: 1rem;
+    padding-bottom: 2rem;
+    font-weight: 300;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
