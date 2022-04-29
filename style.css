@@ -11,15 +11,15 @@ body {
     background-color: hsl(212, 45%, 89%);
     min-height:100vh;
     display:flex;   
+    align-items: center;
+    justify-content: center;
 }
 
 /* CARD */
 
 .card {
     background-color: white;
-    display: flex;
     flex-direction: column;
-    margin: auto;
 }
 .qr-code img {
     padding: 1rem;
@@ -33,7 +33,7 @@ body {
 .content {
     text-align: center;
 }
-.content h4 {
+.content h1 {
     font-size: 23px;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
@@ -41,7 +41,7 @@ body {
 .content p {
     padding: 1rem;
     padding-bottom: 2rem;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 15px;
     color: hsl(220, 15%, 55%);
 }
